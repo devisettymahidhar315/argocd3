@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: mahidhard2003692/multi_ser:1.1 
+        image: mahidhard2003692/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 5000
 ---
